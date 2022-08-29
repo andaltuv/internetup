@@ -1,0 +1,16 @@
+{
+  "files": {
+    "main.css": "/internetup/static/css/main.faef6b5f.css",
+    "main.js": "/internetup/static/js/main.275d14c7.js",
+    "static/js/787.a3e7cde4.chunk.js": "/internetup/static/js/787.a3e7cde4.chunk.js",
+    "static/media/logo.svg": "/internetup/static/media/logo.6ce24c58023cc2f8fd88fe9d219db6c6.svg",
+    "index.html": "/internetup/index.html",
+    "main.faef6b5f.css.map": "/internetup/static/css/main.faef6b5f.css.map",
+    "main.275d14c7.js.map": "/internetup/static/js/main.275d14c7.js.map",
+    "787.a3e7cde4.chunk.js.map": "/internetup/static/js/787.a3e7cde4.chunk.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.faef6b5f.css",
+    "static/js/main.275d14c7.js"
+  ]
+}
