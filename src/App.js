@@ -1,4 +1,3 @@
-import logo from './logo.svg';
 import './App.css';
 import { useEffect, useState } from 'react';
 import { UseForm } from './Hooks/useForm';
@@ -9,7 +8,6 @@ function App() {
   const [report, setReport] = useState([]);
   const [currentDate, setCurrentDate] = useState("");
   const [businessSet, setBusiness] = useState("none");
-  let [isonline, setIsOnline] = useState(navigator.onLine);
   let [reportCreation, setReportCreation] = useState(false);
   useState(() => {
     getTodayDate();
@@ -108,16 +106,17 @@ function App() {
         }
       </div>
       <div className="message">
-        <h3>Cómo usar:</h3>
+        <h3>¿Cómo usar?</h3>
         <p>Paso 1: Ingresar nombre de su proveedor de internet</p>
         <p>Paso 2: Dejar la página abierta en un pestaña en su explorador</p>
-        <p>Paso 3: Seguir con tu vida normal!</p>
-        <p>Si quieren compartir el reporte de fallas deben tomar una captura de pantalla.</p>
-        <h3>Qué es esto?</h3>
-        <p>Esta idea nació porque durante las últimas seis semanas el servicio de Internet de CANTV a sido terrible, este servicio no es gratis. Actualmente pago una mensualidad de 22$ por un servicio de 14mb que en un buen día llega a 6mb.</p>  
-        <p>Ya me ladille de que a los Venezolanos nos esten metiendo el dedo y además nos las tengamos que calar, la verdad no se si esto marcará una diferencia a nivel de servicio pero vamos a poder dejar en evidencia a los proveedores y los servicios que ofrecen.</p>
+        <p>Paso 3: Usar internet como siempre!</p>
+        <h3>Compartir:</h3>
+        <p>Si desea compartir su reporte de fallas debe tomar una captura de pantalla, estoy trabajando en una opción donde descargue la imagen al presionar un botón.</p>
         <h3>Por hacer:</h3>
         <p>Botón que cree una imagen con la tabla para compartirlo por las redes sociales</p>
+        <p>La aplicación debe saber en que ciudad esta ubicado</p>
+        <h3>¿Es solo para Venezuela?</h3>
+        <p>No hay limitante de país, puede ser usado donde sea por quien sea.</p>
       </div>  
     </>
   );
